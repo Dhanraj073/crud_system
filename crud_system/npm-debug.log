@@ -1,0 +1,1352 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData express
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/express
+24 silly fetchNamedPackageData body-parser
+25 silly mapToRegistry name body-parser
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+29 silly fetchNamedPackageData cookie-parser
+30 silly mapToRegistry name cookie-parser
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+34 silly fetchNamedPackageData morgan
+35 silly mapToRegistry name morgan
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/morgan
+39 silly fetchNamedPackageData serve-favicon
+40 silly mapToRegistry name serve-favicon
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+44 silly fetchNamedPackageData debug
+45 silly mapToRegistry name debug
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/debug
+49 silly fetchNamedPackageData ejs
+50 silly mapToRegistry name ejs
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/ejs
+54 silly fetchNamedPackageData mongoose
+55 silly mapToRegistry name mongoose
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+59 verbose request uri https://registry.npmjs.org/body-parser
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 3:20:13 PM
+62 verbose request id fc780bfea92361a2
+63 verbose etag "DNI9YFLOYPVF5WZTR7416TL0V"
+64 http request GET https://registry.npmjs.org/body-parser
+65 verbose request uri https://registry.npmjs.org/morgan
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 3:20:14 PM
+68 verbose etag "E3R1WQTQE5TC0TNP3H18U0LII"
+69 http request GET https://registry.npmjs.org/morgan
+70 verbose request uri https://registry.npmjs.org/serve-favicon
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 3:20:14 PM
+73 verbose etag "2O8HCBCNR4B0ATP541PTH2SOI"
+74 http request GET https://registry.npmjs.org/serve-favicon
+75 verbose request uri https://registry.npmjs.org/express
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 3:20:14 PM
+78 verbose etag "84CXGPQOE6U7ANR842TNDMHKO"
+79 http request GET https://registry.npmjs.org/express
+80 verbose request uri https://registry.npmjs.org/cookie-parser
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 3:20:14 PM
+83 verbose etag "ATT6DF4BR4TFTXRQBFYP3Q0ZF"
+84 http request GET https://registry.npmjs.org/cookie-parser
+85 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+86 verbose request uri https://registry.npmjs.org/debug
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 3:20:14 PM
+89 verbose etag "1TQB5M39B6ZS7TOMZ4ZNDMVTN"
+90 http request GET https://registry.npmjs.org/debug
+91 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+92 verbose request uri https://registry.npmjs.org/mongoose
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 3:20:14 PM
+95 verbose etag "DYDEAEFUGCNYRZ24K5FE0RY8F"
+96 http request GET https://registry.npmjs.org/mongoose
+97 verbose request uri https://registry.npmjs.org/ejs
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 3:20:14 PM
+100 verbose etag "EPSEWEH0KUIDLYY2D9C6YFWY0"
+101 http request GET https://registry.npmjs.org/ejs
+102 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+103 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+104 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+105 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+106 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+107 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+108 info attempt registry request try #2 at 3:20:24 PM
+109 verbose etag "DNI9YFLOYPVF5WZTR7416TL0V"
+110 http request GET https://registry.npmjs.org/body-parser
+111 info attempt registry request try #2 at 3:20:24 PM
+112 verbose etag "E3R1WQTQE5TC0TNP3H18U0LII"
+113 http request GET https://registry.npmjs.org/morgan
+114 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+115 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+116 info attempt registry request try #2 at 3:20:24 PM
+117 verbose etag "2O8HCBCNR4B0ATP541PTH2SOI"
+118 http request GET https://registry.npmjs.org/serve-favicon
+119 info attempt registry request try #2 at 3:20:24 PM
+120 verbose etag "84CXGPQOE6U7ANR842TNDMHKO"
+121 http request GET https://registry.npmjs.org/express
+122 info attempt registry request try #2 at 3:20:24 PM
+123 verbose etag "ATT6DF4BR4TFTXRQBFYP3Q0ZF"
+124 http request GET https://registry.npmjs.org/cookie-parser
+125 info attempt registry request try #2 at 3:20:24 PM
+126 verbose etag "1TQB5M39B6ZS7TOMZ4ZNDMVTN"
+127 http request GET https://registry.npmjs.org/debug
+128 info attempt registry request try #2 at 3:20:24 PM
+129 verbose etag "DYDEAEFUGCNYRZ24K5FE0RY8F"
+130 http request GET https://registry.npmjs.org/mongoose
+131 info attempt registry request try #2 at 3:20:24 PM
+132 verbose etag "EPSEWEH0KUIDLYY2D9C6YFWY0"
+133 http request GET https://registry.npmjs.org/ejs
+134 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+135 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+136 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+138 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+139 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+140 info attempt registry request try #3 at 3:21:24 PM
+141 verbose etag "DNI9YFLOYPVF5WZTR7416TL0V"
+142 http request GET https://registry.npmjs.org/body-parser
+143 info attempt registry request try #3 at 3:21:24 PM
+144 verbose etag "E3R1WQTQE5TC0TNP3H18U0LII"
+145 http request GET https://registry.npmjs.org/morgan
+146 silly get cb [ 304, undefined ]
+147 verbose etag https://registry.npmjs.org/body-parser from cache
+148 verbose get saving body-parser to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+149 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+150 silly get cb [ 304, undefined ]
+151 verbose etag https://registry.npmjs.org/morgan from cache
+152 verbose get saving morgan to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\morgan\.cache.json
+153 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+154 silly resolveWithNewModule body-parser@1.8.4 checking installable status
+155 silly cache add args [ 'body-parser@~1.8.1', null ]
+156 verbose cache add spec body-parser@~1.8.1
+157 silly cache add parsed spec Result {
+157 silly cache add   raw: 'body-parser@~1.8.1',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'body-parser',
+157 silly cache add   rawSpec: '~1.8.1',
+157 silly cache add   spec: '>=1.8.1 <1.9.0',
+157 silly cache add   type: 'range' }
+158 silly addNamed body-parser@>=1.8.1 <1.9.0
+159 verbose addNamed ">=1.8.1 <1.9.0" is a valid semver range for body-parser
+160 silly addNameRange { name: 'body-parser', range: '>=1.8.1 <1.9.0', hasData: false }
+161 silly mapToRegistry name body-parser
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+165 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+166 info attempt registry request try #3 at 3:21:24 PM
+167 verbose etag "2O8HCBCNR4B0ATP541PTH2SOI"
+168 http request GET https://registry.npmjs.org/serve-favicon
+169 info attempt registry request try #3 at 3:21:24 PM
+170 verbose etag "84CXGPQOE6U7ANR842TNDMHKO"
+171 http request GET https://registry.npmjs.org/express
+172 info attempt registry request try #3 at 3:21:24 PM
+173 verbose etag "ATT6DF4BR4TFTXRQBFYP3Q0ZF"
+174 http request GET https://registry.npmjs.org/cookie-parser
+175 info attempt registry request try #3 at 3:21:24 PM
+176 verbose etag "1TQB5M39B6ZS7TOMZ4ZNDMVTN"
+177 http request GET https://registry.npmjs.org/debug
+178 info attempt registry request try #3 at 3:21:24 PM
+179 verbose etag "DYDEAEFUGCNYRZ24K5FE0RY8F"
+180 http request GET https://registry.npmjs.org/mongoose
+181 info attempt registry request try #3 at 3:21:24 PM
+182 verbose etag "EPSEWEH0KUIDLYY2D9C6YFWY0"
+183 http request GET https://registry.npmjs.org/ejs
+184 silly resolveWithNewModule morgan@1.3.2 checking installable status
+185 silly cache add args [ 'morgan@~1.3.0', null ]
+186 verbose cache add spec morgan@~1.3.0
+187 silly cache add parsed spec Result {
+187 silly cache add   raw: 'morgan@~1.3.0',
+187 silly cache add   scope: null,
+187 silly cache add   name: 'morgan',
+187 silly cache add   rawSpec: '~1.3.0',
+187 silly cache add   spec: '>=1.3.0 <1.4.0',
+187 silly cache add   type: 'range' }
+188 silly addNamed morgan@>=1.3.0 <1.4.0
+189 verbose addNamed ">=1.3.0 <1.4.0" is a valid semver range for morgan
+190 silly addNameRange { name: 'morgan', range: '>=1.3.0 <1.4.0', hasData: false }
+191 silly mapToRegistry name morgan
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry uri https://registry.npmjs.org/morgan
+195 verbose addNameRange registry:https://registry.npmjs.org/morgan not in flight; fetching
+196 verbose get https://registry.npmjs.org/body-parser not expired, no request
+197 silly addNameRange number 2 { name: 'body-parser', range: '>=1.8.1 <1.9.0', hasData: true }
+198 silly addNameRange versions [ 'body-parser',
+198 silly addNameRange   [ '1.0.0',
+198 silly addNameRange     '1.0.1',
+198 silly addNameRange     '1.0.2',
+198 silly addNameRange     '1.1.0',
+198 silly addNameRange     '1.1.1',
+198 silly addNameRange     '1.1.2',
+198 silly addNameRange     '1.2.0',
+198 silly addNameRange     '1.2.1',
+198 silly addNameRange     '1.2.2',
+198 silly addNameRange     '1.3.0',
+198 silly addNameRange     '1.3.1',
+198 silly addNameRange     '1.4.0',
+198 silly addNameRange     '1.4.1',
+198 silly addNameRange     '1.4.2',
+198 silly addNameRange     '1.4.3',
+198 silly addNameRange     '1.5.0',
+198 silly addNameRange     '1.5.1',
+198 silly addNameRange     '1.5.2',
+198 silly addNameRange     '1.6.0',
+198 silly addNameRange     '1.6.1',
+198 silly addNameRange     '1.6.2',
+198 silly addNameRange     '1.6.3',
+198 silly addNameRange     '1.6.4',
+198 silly addNameRange     '1.6.5',
+198 silly addNameRange     '1.6.6',
+198 silly addNameRange     '1.6.7',
+198 silly addNameRange     '1.7.0',
+198 silly addNameRange     '1.8.0',
+198 silly addNameRange     '1.8.1',
+198 silly addNameRange     '1.8.2',
+198 silly addNameRange     '1.8.3',
+198 silly addNameRange     '1.8.4',
+198 silly addNameRange     '1.9.0',
+198 silly addNameRange     '1.9.1',
+198 silly addNameRange     '1.9.2',
+198 silly addNameRange     '1.9.3',
+198 silly addNameRange     '1.10.0',
+198 silly addNameRange     '1.10.1',
+198 silly addNameRange     '1.10.2',
+198 silly addNameRange     '1.11.0',
+198 silly addNameRange     '1.12.0',
+198 silly addNameRange     '1.12.1',
+198 silly addNameRange     '1.12.2',
+198 silly addNameRange     '1.12.3',
+198 silly addNameRange     '1.12.4',
+198 silly addNameRange     '1.13.0',
+198 silly addNameRange     '1.13.1',
+198 silly addNameRange     '1.13.2',
+198 silly addNameRange     '1.13.3',
+198 silly addNameRange     '1.14.0',
+198 silly addNameRange     '1.14.1',
+198 silly addNameRange     '1.14.2',
+198 silly addNameRange     '1.15.0' ] ]
+199 silly addNamed body-parser@1.8.4
+200 verbose addNamed "1.8.4" is a plain semver version for body-parser
+201 verbose get https://registry.npmjs.org/morgan not expired, no request
+202 silly addNameRange number 2 { name: 'morgan', range: '>=1.3.0 <1.4.0', hasData: true }
+203 silly addNameRange versions [ 'morgan',
+203 silly addNameRange   [ '1.0.0',
+203 silly addNameRange     '1.0.1',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.1.1',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.2.1',
+203 silly addNameRange     '1.2.2',
+203 silly addNameRange     '1.2.3',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.3.1',
+203 silly addNameRange     '1.3.2',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.4.1',
+203 silly addNameRange     '1.5.0',
+203 silly addNameRange     '1.5.1',
+203 silly addNameRange     '1.5.2',
+203 silly addNameRange     '1.5.3',
+203 silly addNameRange     '1.6.0',
+203 silly addNameRange     '1.6.1',
+203 silly addNameRange     '1.7.0' ] ]
+204 silly addNamed morgan@1.3.2
+205 verbose addNamed "1.3.2" is a plain semver version for morgan
+206 silly get cb [ 304, undefined ]
+207 verbose etag https://registry.npmjs.org/serve-favicon from cache
+208 verbose get saving serve-favicon to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\serve-favicon\.cache.json
+209 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+210 silly get cb [ 304, undefined ]
+211 verbose etag https://registry.npmjs.org/express from cache
+212 verbose get saving express to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+213 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 silly get cb [ 304, undefined ]
+215 verbose etag https://registry.npmjs.org/cookie-parser from cache
+216 verbose get saving cookie-parser to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\cookie-parser\.cache.json
+217 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+218 silly get cb [ 304, undefined ]
+219 verbose etag https://registry.npmjs.org/debug from cache
+220 verbose get saving debug to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+221 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+222 silly get cb [ 304, undefined ]
+223 verbose etag https://registry.npmjs.org/mongoose from cache
+224 verbose get saving mongoose to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+225 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+226 silly get cb [ 304, undefined ]
+227 verbose etag https://registry.npmjs.org/ejs from cache
+228 verbose get saving ejs to C:\Users\flash\AppData\Roaming\npm-cache\registry.npmjs.org\ejs\.cache.json
+229 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+230 silly mapToRegistry name body-parser
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+234 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz not in flight; adding
+235 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz',
+235 verbose addRemoteTarball   'd497e04bc13b3f9a8bd8c70bb0cdc16f2e028898' ]
+236 silly mapToRegistry name morgan
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry uri https://registry.npmjs.org/morgan
+240 verbose addRemoteTarball https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz not in flight; adding
+241 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz',
+241 verbose addRemoteTarball   'ac41aa15221ee4e5f2ac843896b6918139a18efd' ]
+242 info retry fetch attempt 1 at 3:21:24 PM
+243 info attempt registry request try #1 at 3:21:24 PM
+244 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+245 silly resolveWithNewModule cookie-parser@1.3.5 checking installable status
+246 silly cache add args [ 'cookie-parser@~1.3.3', null ]
+247 verbose cache add spec cookie-parser@~1.3.3
+248 silly cache add parsed spec Result {
+248 silly cache add   raw: 'cookie-parser@~1.3.3',
+248 silly cache add   scope: null,
+248 silly cache add   name: 'cookie-parser',
+248 silly cache add   rawSpec: '~1.3.3',
+248 silly cache add   spec: '>=1.3.3 <1.4.0',
+248 silly cache add   type: 'range' }
+249 silly addNamed cookie-parser@>=1.3.3 <1.4.0
+250 verbose addNamed ">=1.3.3 <1.4.0" is a valid semver range for cookie-parser
+251 silly addNameRange { name: 'cookie-parser',
+251 silly addNameRange   range: '>=1.3.3 <1.4.0',
+251 silly addNameRange   hasData: false }
+252 silly mapToRegistry name cookie-parser
+253 silly mapToRegistry using default registry
+254 silly mapToRegistry registry https://registry.npmjs.org/
+255 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+256 verbose addNameRange registry:https://registry.npmjs.org/cookie-parser not in flight; fetching
+257 silly resolveWithNewModule express@4.9.8 checking installable status
+258 silly cache add args [ 'express@~4.9.0', null ]
+259 verbose cache add spec express@~4.9.0
+260 silly cache add parsed spec Result {
+260 silly cache add   raw: 'express@~4.9.0',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'express',
+260 silly cache add   rawSpec: '~4.9.0',
+260 silly cache add   spec: '>=4.9.0 <4.10.0',
+260 silly cache add   type: 'range' }
+261 silly addNamed express@>=4.9.0 <4.10.0
+262 verbose addNamed ">=4.9.0 <4.10.0" is a valid semver range for express
+263 silly addNameRange { name: 'express', range: '>=4.9.0 <4.10.0', hasData: false }
+264 silly mapToRegistry name express
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry uri https://registry.npmjs.org/express
+268 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+269 silly resolveWithNewModule debug@2.0.0 checking installable status
+270 silly cache add args [ 'debug@~2.0.0', null ]
+271 verbose cache add spec debug@~2.0.0
+272 silly cache add parsed spec Result {
+272 silly cache add   raw: 'debug@~2.0.0',
+272 silly cache add   scope: null,
+272 silly cache add   name: 'debug',
+272 silly cache add   rawSpec: '~2.0.0',
+272 silly cache add   spec: '>=2.0.0 <2.1.0',
+272 silly cache add   type: 'range' }
+273 silly addNamed debug@>=2.0.0 <2.1.0
+274 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for debug
+275 silly addNameRange { name: 'debug', range: '>=2.0.0 <2.1.0', hasData: false }
+276 silly mapToRegistry name debug
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/debug
+280 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+281 info retry fetch attempt 1 at 3:21:24 PM
+282 info attempt registry request try #1 at 3:21:24 PM
+283 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+284 silly resolveWithNewModule serve-favicon@2.1.7 checking installable status
+285 silly cache add args [ 'serve-favicon@~2.1.3', null ]
+286 verbose cache add spec serve-favicon@~2.1.3
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: 'serve-favicon@~2.1.3',
+287 silly cache add   scope: null,
+287 silly cache add   name: 'serve-favicon',
+287 silly cache add   rawSpec: '~2.1.3',
+287 silly cache add   spec: '>=2.1.3 <2.2.0',
+287 silly cache add   type: 'range' }
+288 silly addNamed serve-favicon@>=2.1.3 <2.2.0
+289 verbose addNamed ">=2.1.3 <2.2.0" is a valid semver range for serve-favicon
+290 silly addNameRange { name: 'serve-favicon',
+290 silly addNameRange   range: '>=2.1.3 <2.2.0',
+290 silly addNameRange   hasData: false }
+291 silly mapToRegistry name serve-favicon
+292 silly mapToRegistry using default registry
+293 silly mapToRegistry registry https://registry.npmjs.org/
+294 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+295 verbose addNameRange registry:https://registry.npmjs.org/serve-favicon not in flight; fetching
+296 silly resolveWithNewModule ejs@0.8.8 checking installable status
+297 silly cache add args [ 'ejs@~0.8.5', null ]
+298 verbose cache add spec ejs@~0.8.5
+299 silly cache add parsed spec Result {
+299 silly cache add   raw: 'ejs@~0.8.5',
+299 silly cache add   scope: null,
+299 silly cache add   name: 'ejs',
+299 silly cache add   rawSpec: '~0.8.5',
+299 silly cache add   spec: '>=0.8.5 <0.9.0',
+299 silly cache add   type: 'range' }
+300 silly addNamed ejs@>=0.8.5 <0.9.0
+301 verbose addNamed ">=0.8.5 <0.9.0" is a valid semver range for ejs
+302 silly addNameRange { name: 'ejs', range: '>=0.8.5 <0.9.0', hasData: false }
+303 silly mapToRegistry name ejs
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry https://registry.npmjs.org/
+306 silly mapToRegistry uri https://registry.npmjs.org/ejs
+307 verbose addNameRange registry:https://registry.npmjs.org/ejs not in flight; fetching
+308 silly resolveWithNewModule mongoose@3.8.39 checking installable status
+309 silly cache add args [ 'mongoose@~3.8.17', null ]
+310 verbose cache add spec mongoose@~3.8.17
+311 silly cache add parsed spec Result {
+311 silly cache add   raw: 'mongoose@~3.8.17',
+311 silly cache add   scope: null,
+311 silly cache add   name: 'mongoose',
+311 silly cache add   rawSpec: '~3.8.17',
+311 silly cache add   spec: '>=3.8.17 <3.9.0',
+311 silly cache add   type: 'range' }
+312 silly addNamed mongoose@>=3.8.17 <3.9.0
+313 verbose addNamed ">=3.8.17 <3.9.0" is a valid semver range for mongoose
+314 silly addNameRange { name: 'mongoose', range: '>=3.8.17 <3.9.0', hasData: false }
+315 silly mapToRegistry name mongoose
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+319 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+320 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+321 verbose get https://registry.npmjs.org/cookie-parser not expired, no request
+322 silly addNameRange number 2 { name: 'cookie-parser', range: '>=1.3.3 <1.4.0', hasData: true }
+323 silly addNameRange versions [ 'cookie-parser',
+323 silly addNameRange   [ '1.0.0',
+323 silly addNameRange     '1.0.1',
+323 silly addNameRange     '1.1.0',
+323 silly addNameRange     '1.2.0',
+323 silly addNameRange     '1.3.0',
+323 silly addNameRange     '1.3.1',
+323 silly addNameRange     '1.3.2',
+323 silly addNameRange     '1.3.3',
+323 silly addNameRange     '1.3.4',
+323 silly addNameRange     '1.3.5',
+323 silly addNameRange     '1.4.0',
+323 silly addNameRange     '1.4.1' ] ]
+324 silly addNamed cookie-parser@1.3.5
+325 verbose addNamed "1.3.5" is a plain semver version for cookie-parser
+326 verbose get https://registry.npmjs.org/express not expired, no request
+327 silly addNameRange number 2 { name: 'express', range: '>=4.9.0 <4.10.0', hasData: true }
+328 silly addNameRange versions [ 'express',
+328 silly addNameRange   [ '0.14.0',
+328 silly addNameRange     '0.14.1',
+328 silly addNameRange     '1.0.0',
+328 silly addNameRange     '1.0.1',
+328 silly addNameRange     '1.0.2',
+328 silly addNameRange     '1.0.3',
+328 silly addNameRange     '1.0.4',
+328 silly addNameRange     '1.0.5',
+328 silly addNameRange     '1.0.6',
+328 silly addNameRange     '1.0.7',
+328 silly addNameRange     '1.0.8',
+328 silly addNameRange     '2.0.0',
+328 silly addNameRange     '2.1.0',
+328 silly addNameRange     '2.1.1',
+328 silly addNameRange     '2.2.0',
+328 silly addNameRange     '2.2.1',
+328 silly addNameRange     '2.2.2',
+328 silly addNameRange     '2.3.0',
+328 silly addNameRange     '2.3.1',
+328 silly addNameRange     '2.3.2',
+328 silly addNameRange     '2.3.3',
+328 silly addNameRange     '2.3.4',
+328 silly addNameRange     '2.3.5',
+328 silly addNameRange     '2.3.6',
+328 silly addNameRange     '2.3.7',
+328 silly addNameRange     '2.3.8',
+328 silly addNameRange     '2.3.9',
+328 silly addNameRange     '2.3.10',
+328 silly addNameRange     '2.3.11',
+328 silly addNameRange     '2.3.12',
+328 silly addNameRange     '2.4.0',
+328 silly addNameRange     '2.4.1',
+328 silly addNameRange     '2.4.2',
+328 silly addNameRange     '2.4.3',
+328 silly addNameRange     '2.4.4',
+328 silly addNameRange     '2.4.5',
+328 silly addNameRange     '2.4.6',
+328 silly addNameRange     '2.4.7',
+328 silly addNameRange     '2.5.0',
+328 silly addNameRange     '2.5.1',
+328 silly addNameRange     '2.5.2',
+328 silly addNameRange     '2.5.3',
+328 silly addNameRange     '2.5.4',
+328 silly addNameRange     '2.5.5',
+328 silly addNameRange     '2.5.6',
+328 silly addNameRange     '2.5.7',
+328 silly addNameRange     '2.5.8',
+328 silly addNameRange     '2.5.9',
+328 silly addNameRange     '2.5.10',
+328 silly addNameRange     '2.5.11',
+328 silly addNameRange     '3.0.0',
+328 silly addNameRange     '3.0.1',
+328 silly addNameRange     '3.0.2',
+328 silly addNameRange     '3.0.3',
+328 silly addNameRange     '3.0.4',
+328 silly addNameRange     '3.0.5',
+328 silly addNameRange     '3.0.6',
+328 silly addNameRange     '3.1.0',
+328 silly addNameRange     '3.1.1',
+328 silly addNameRange     '3.1.2',
+328 silly addNameRange     '3.2.0',
+328 silly addNameRange     '3.2.1',
+328 silly addNameRange     '3.2.2',
+328 silly addNameRange     '3.2.3',
+328 silly addNameRange     '3.2.4',
+328 silly addNameRange     '3.2.5',
+328 silly addNameRange     '3.2.6',
+328 silly addNameRange     '3.3.0',
+328 silly addNameRange     '3.3.1',
+328 silly addNameRange     '3.3.2',
+328 silly addNameRange     '3.3.3',
+328 silly addNameRange     '3.3.4',
+328 silly addNameRange     '3.3.5',
+328 silly addNameRange     '3.3.6',
+328 silly addNameRange     '1.0.0-beta',
+328 silly addNameRange     '1.0.0-beta2',
+328 silly addNameRange     '1.0.0-rc',
+328 silly addNameRange     '1.0.0-rc2',
+328 silly addNameRange     '1.0.0-rc3',
+328 silly addNameRange     '1.0.0-rc4',
+328 silly addNameRange     '2.0.0-beta',
+328 silly addNameRange     '2.0.0-beta2',
+328 silly addNameRange     '2.0.0-beta3',
+328 silly addNameRange     '2.0.0-rc',
+328 silly addNameRange     '2.0.0-rc2',
+328 silly addNameRange     '2.0.0-rc3',
+328 silly addNameRange     '3.0.0-alpha1',
+328 silly addNameRange     '3.0.0-alpha2',
+328 silly addNameRange     '3.0.0-alpha3',
+328 silly addNameRange     '3.0.0-alpha4',
+328 silly addNameRange     '3.0.0-alpha5',
+328 silly addNameRange     '3.0.0-beta1',
+328 silly addNameRange     '3.0.0-beta2',
+328 silly addNameRange     '3.0.0-beta3',
+328 silly addNameRange     '3.0.0-beta4',
+328 silly addNameRange     '3.0.0-beta6',
+328 silly addNameRange     '3.0.0-beta7',
+328 silly addNameRange     '3.0.0-rc1',
+328 silly addNameRange     '3.0.0-rc2',
+328 silly addNameRange     '3.0.0-rc3',
+328 silly addNameRange     '3.0.0-rc4',
+328 silly addNameRange     '3.0.0-rc5',
+328 silly addNameRange     '3.3.7',
+328 silly addNameRange     '3.3.8',
+328 silly addNameRange     '3.4.0',
+328 silly addNameRange     '3.4.1',
+328 silly addNameRange     '3.4.2',
+328 silly addNameRange     '3.4.3',
+328 silly addNameRange     '3.4.4',
+328 silly addNameRange     '3.4.5',
+328 silly addNameRange     '3.4.6',
+328 silly addNameRange     '3.4.7',
+328 silly addNameRange     '3.4.8',
+328 silly addNameRange     '4.0.0-rc1',
+328 silly addNameRange     '4.0.0-rc2',
+328 silly addNameRange     '3.5.0',
+328 silly addNameRange     '4.0.0-rc3',
+328 silly addNameRange     '4.0.0-rc4',
+328 silly addNameRange     '3.5.1',
+328 silly addNameRange     '4.0.0',
+328 silly addNameRange     '3.5.2',
+328 silly addNameRange     '4.1.0',
+328 silly addNameRange     '4.1.1',
+328 silly addNameRange     '3.5.3',
+328 silly addNameRange     '4.1.2',
+328 silly addNameRange     '3.6.0',
+328 silly addNameRange     '4.2.0',
+328 silly addNameRange     '3.7.0',
+328 silly addNameRange     '3.8.0',
+328 silly addNameRange     '4.3.0',
+328 silly addNameRange     '4.3.1',
+328 silly addNameRange     '3.8.1',
+328 silly addNameRange     '4.3.2',
+328 silly addNameRange     '3.9.0',
+328 silly addNameRange     '4.4.0',
+328 silly addNameRange     '4.4.1',
+328 silly addNameRange     '3.10.0',
+328 silly addNameRange     '3.10.1',
+328 silly addNameRange     '3.10.2',
+328 silly addNameRange     '3.10.3',
+328 silly addNameRange     '3.10.4',
+328 silly addNameRange     '4.4.2',
+328 silly addNameRange     '3.10.5',
+328 silly addNameRange     '4.4.3',
+328 silly addNameRange     '3.11.0',
+328 silly addNameRange     '4.4.4',
+328 silly addNameRange     '3.12.0',
+328 silly addNameRange     '3.12.1',
+328 silly addNameRange     '4.4.5',
+328 silly addNameRange     '3.13.0',
+328 silly addNameRange     '4.5.0',
+328 silly addNameRange     '4.5.1',
+328 silly addNameRange     '3.14.0',
+328 silly addNameRange     '4.6.0',
+328 silly addNameRange     '4.6.1',
+328 silly addNameRange     '3.15.0',
+328 silly addNameRange     '4.7.0',
+328 silly addNameRange     '3.15.1',
+328 silly addNameRange     '4.7.1',
+328 silly addNameRange     '3.15.2',
+328 silly addNameRange     '4.7.2',
+328 silly addNameRange     '4.7.3',
+328 silly addNameRange     '3.15.3',
+328 silly addNameRange     '4.7.4',
+328 silly addNameRange     '3.16.0',
+328 silly addNameRange     '4.8.0',
+328 silly addNameRange     '3.16.1',
+328 silly addNameRange     '4.8.1',
+328 silly addNameRange     '3.16.2',
+328 silly addNameRange     '4.8.2',
+328 silly addNameRange     '3.16.3',
+328 silly addNameRange     '3.16.4',
+328 silly addNameRange     '4.8.3',
+328 silly addNameRange     '3.16.5',
+328 silly addNameRange     '3.16.6',
+328 silly addNameRange     '4.8.4',
+328 silly addNameRange     '3.16.7',
+328 silly addNameRange     '4.8.5',
+328 silly addNameRange     '3.16.8',
+328 silly addNameRange     '4.8.6',
+328 silly addNameRange     '3.16.9',
+328 silly addNameRange     '4.8.7',
+328 silly addNameRange     '3.16.10',
+328 silly addNameRange     '4.8.8',
+328 silly addNameRange     '3.17.0',
+328 silly addNameRange     '3.17.1',
+328 silly addNameRange     '4.9.0',
+328 silly addNameRange     '3.17.2',
+328 silly addNameRange     '4.9.1',
+328 silly addNameRange     '4.9.2',
+328 silly addNameRange     '3.17.3',
+328 silly addNameRange     '4.9.3',
+328 silly addNameRange     '3.17.4',
+328 silly addNameRange     '4.9.4',
+328 silly addNameRange     '3.17.5',
+328 silly addNameRange     '4.9.5',
+328 silly addNameRange     '3.17.6',
+328 silly addNameRange     '3.17.7',
+328 silly addNameRange     '4.9.6',
+328 silly addNameRange     '4.9.7',
+328 silly addNameRange     '3.17.8',
+328 silly addNameRange     '4.9.8',
+328 silly addNameRange     '3.18.0',
+328 silly addNameRange     '3.18.1',
+328 silly addNameRange     '4.10.0',
+328 silly addNameRange     '3.18.2',
+328 silly addNameRange     '4.10.1',
+328 silly addNameRange     '5.0.0-alpha.1',
+328 silly addNameRange     '3.18.3',
+328 silly addNameRange     '4.10.2',
+328 silly addNameRange     '3.18.4',
+328 silly addNameRange     '4.10.3',
+328 silly addNameRange     '4.10.4',
+328 silly addNameRange     '4.10.5',
+328 silly addNameRange     '3.18.5',
+328 silly addNameRange     '3.18.6',
+328 silly addNameRange     '4.10.6',
+328 silly addNameRange     '4.10.7',
+328 silly addNameRange     '3.19.0',
+328 silly addNameRange     '4.10.8',
+328 silly addNameRange     '4.11.0',
+328 silly addNameRange     '3.19.1',
+328 silly addNameRange     '4.11.1',
+328 silly addNameRange     '3.19.2',
+328 silly addNameRange     '4.11.2',
+328 silly addNameRange     '3.20.0',
+328 silly addNameRange     '4.12.0',
+328 silly addNameRange     '3.20.1',
+328 silly addNameRange     '4.12.1',
+328 silly addNameRange     '4.12.2',
+328 silly addNameRange     '3.20.2',
+328 silly addNameRange     '4.12.3',
+328 silly addNameRange     '3.20.3',
+328 silly addNameRange     '4.12.4',
+328 silly addNameRange     '3.21.0',
+328 silly addNameRange     '4.13.0',
+328 silly addNameRange     '3.21.1',
+328 silly addNameRange     '4.13.1',
+328 silly addNameRange     '5.0.0-alpha.2',
+328 silly addNameRange     '3.21.2',
+328 silly addNameRange     '4.13.2',
+328 silly addNameRange     '4.13.3',
+328 silly addNameRange     '4.13.4' ] ]
+329 silly addNamed express@4.9.8
+330 verbose addNamed "4.9.8" is a plain semver version for express
+331 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+332 verbose get https://registry.npmjs.org/debug not expired, no request
+333 silly addNameRange number 2 { name: 'debug', range: '>=2.0.0 <2.1.0', hasData: true }
+334 silly addNameRange versions [ 'debug',
+334 silly addNameRange   [ '0.0.1',
+334 silly addNameRange     '0.1.0',
+334 silly addNameRange     '0.2.0',
+334 silly addNameRange     '0.3.0',
+334 silly addNameRange     '0.4.0',
+334 silly addNameRange     '0.4.1',
+334 silly addNameRange     '0.5.0',
+334 silly addNameRange     '0.6.0',
+334 silly addNameRange     '0.7.0',
+334 silly addNameRange     '0.7.1',
+334 silly addNameRange     '0.7.2',
+334 silly addNameRange     '0.7.3',
+334 silly addNameRange     '0.7.4',
+334 silly addNameRange     '0.8.0',
+334 silly addNameRange     '0.8.1',
+334 silly addNameRange     '1.0.0',
+334 silly addNameRange     '1.0.1',
+334 silly addNameRange     '1.0.2',
+334 silly addNameRange     '1.0.3',
+334 silly addNameRange     '1.0.4',
+334 silly addNameRange     '2.0.0',
+334 silly addNameRange     '2.1.0',
+334 silly addNameRange     '2.1.1',
+334 silly addNameRange     '2.1.2',
+334 silly addNameRange     '2.1.3',
+334 silly addNameRange     '2.2.0' ] ]
+335 silly addNamed debug@2.0.0
+336 verbose addNamed "2.0.0" is a plain semver version for debug
+337 silly mapToRegistry name express
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry uri https://registry.npmjs.org/express
+341 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.9.8.tgz not in flight; adding
+342 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.9.8.tgz',
+342 verbose addRemoteTarball   'f360f596baeabbd0e5223b603d6eb578d9d2d10d' ]
+343 verbose get https://registry.npmjs.org/serve-favicon not expired, no request
+344 silly addNameRange number 2 { name: 'serve-favicon', range: '>=2.1.3 <2.2.0', hasData: true }
+345 silly addNameRange versions [ 'serve-favicon',
+345 silly addNameRange   [ '2.0.0',
+345 silly addNameRange     '2.0.1',
+345 silly addNameRange     '2.1.0',
+345 silly addNameRange     '2.1.1',
+345 silly addNameRange     '2.1.2',
+345 silly addNameRange     '2.1.3',
+345 silly addNameRange     '2.1.4',
+345 silly addNameRange     '2.1.5',
+345 silly addNameRange     '2.1.6',
+345 silly addNameRange     '2.1.7',
+345 silly addNameRange     '2.2.0',
+345 silly addNameRange     '2.2.1',
+345 silly addNameRange     '2.3.0' ] ]
+346 silly addNamed serve-favicon@2.1.7
+347 verbose addNamed "2.1.7" is a plain semver version for serve-favicon
+348 verbose get https://registry.npmjs.org/mongoose not expired, no request
+349 silly addNameRange number 2 { name: 'mongoose', range: '>=3.8.17 <3.9.0', hasData: true }
+350 silly addNameRange versions [ 'mongoose',
+350 silly addNameRange   [ '0.0.1',
+350 silly addNameRange     '0.0.2',
+350 silly addNameRange     '0.0.3',
+350 silly addNameRange     '0.0.4',
+350 silly addNameRange     '0.0.5',
+350 silly addNameRange     '1.0.0',
+350 silly addNameRange     '1.0.1',
+350 silly addNameRange     '1.0.2',
+350 silly addNameRange     '0.0.6',
+350 silly addNameRange     '1.0.3',
+350 silly addNameRange     '1.0.4',
+350 silly addNameRange     '1.0.5',
+350 silly addNameRange     '1.0.6',
+350 silly addNameRange     '1.0.7',
+350 silly addNameRange     '1.0.8',
+350 silly addNameRange     '1.0.10',
+350 silly addNameRange     '1.0.11',
+350 silly addNameRange     '1.0.12',
+350 silly addNameRange     '1.0.13',
+350 silly addNameRange     '1.0.14',
+350 silly addNameRange     '1.0.15',
+350 silly addNameRange     '1.0.16',
+350 silly addNameRange     '1.1.0',
+350 silly addNameRange     '1.1.1',
+350 silly addNameRange     '1.1.2',
+350 silly addNameRange     '1.1.3',
+350 silly addNameRange     '1.1.4',
+350 silly addNameRange     '1.1.5',
+350 silly addNameRange     '1.1.6',
+350 silly addNameRange     '1.1.7',
+350 silly addNameRange     '1.1.8',
+350 silly addNameRange     '1.1.9',
+350 silly addNameRange     '1.1.10',
+350 silly addNameRange     '1.1.11',
+350 silly addNameRange     '1.1.12',
+350 silly addNameRange     '1.1.13',
+350 silly addNameRange     '1.1.14',
+350 silly addNameRange     '1.1.15',
+350 silly addNameRange     '1.1.16',
+350 silly addNameRange     '1.1.17',
+350 silly addNameRange     '1.1.18',
+350 silly addNameRange     '1.1.19',
+350 silly addNameRange     '1.1.20',
+350 silly addNameRange     '1.1.21',
+350 silly addNameRange     '1.1.22',
+350 silly addNameRange     '1.1.23',
+350 silly addNameRange     '1.1.24',
+350 silly addNameRange     '1.1.25',
+350 silly addNameRange     '1.2.0',
+350 silly addNameRange     '1.3.0',
+350 silly addNameRange     '1.3.1',
+350 silly addNameRange     '1.3.2',
+350 silly addNameRange     '1.3.3',
+350 silly addNameRange     '1.3.4',
+350 silly addNameRange     '1.3.5',
+350 silly addNameRange     '1.3.6',
+350 silly addNameRange     '1.3.7',
+350 silly addNameRange     '1.4.0',
+350 silly addNameRange     '1.5.0',
+350 silly addNameRange     '1.6.0',
+350 silly addNameRange     '1.7.2',
+350 silly addNameRange     '1.7.3',
+350 silly addNameRange     '1.7.4',
+350 silly addNameRange     '1.8.0',
+350 silly addNameRange     '1.8.1',
+350 silly addNameRange     '1.8.2',
+350 silly addNameRange     '1.8.3',
+350 silly addNameRange     '1.8.4',
+350 silly addNameRange     '2.0.0',
+350 silly addNameRange     '2.0.1',
+350 silly addNameRange     '2.0.2',
+350 silly addNameRange     '2.0.3',
+350 silly addNameRange     '2.0.4',
+350 silly addNameRange     '2.1.0',
+350 silly addNameRange     '2.1.1',
+350 silly addNameRange     '2.1.2',
+350 silly addNameRange     '2.1.3',
+350 silly addNameRange     '2.1.4',
+350 silly addNameRange     '2.2.0',
+350 silly addNameRange     '2.2.1',
+350 silly addNameRange     '2.2.2',
+350 silly addNameRange     '2.2.3',
+350 silly addNameRange     '2.2.4',
+350 silly addNameRange     '2.3.0',
+350 silly addNameRange     '2.3.1',
+350 silly addNameRange     '2.3.2',
+350 silly addNameRange     '2.3.3',
+350 silly addNameRange     '2.3.4',
+350 silly addNameRange     '2.3.5',
+350 silly addNameRange     '2.3.6',
+350 silly addNameRange     '2.3.7',
+350 silly addNameRange     '2.3.8',
+350 silly addNameRange     '2.3.9',
+350 silly addNameRange     '2.3.10',
+350 silly addNameRange     '2.3.11',
+350 silly addNameRange     '2.3.12',
+350 silly addNameRange     '2.3.13',
+350 silly addNameRange     '2.4.0',
+350 silly addNameRange     '2.4.1',
+350 silly addNameRange     '2.4.2',
+350 silly addNameRange     '2.4.3',
+350 silly addNameRange     '2.4.4',
+350 silly addNameRange     '2.4.5',
+350 silly addNameRange     '2.4.6',
+350 silly addNameRange     '2.4.7',
+350 silly addNameRange     '2.4.8',
+350 silly addNameRange     '2.4.9',
+350 silly addNameRange     '2.4.10',
+350 silly addNameRange     '2.5.0',
+350 silly addNameRange     '2.5.1',
+350 silly addNameRange     '2.5.2',
+350 silly addNameRange     '2.5.3',
+350 silly addNameRange     '2.5.4',
+350 silly addNameRange     '2.5.5',
+350 silly addNameRange     '2.5.6',
+350 silly addNameRange     '2.5.7',
+350 silly addNameRange     '2.5.8',
+350 silly addNameRange     '2.5.9',
+350 silly addNameRange     '2.5.10',
+350 silly addNameRange     '2.5.11',
+350 silly addNameRange     '2.5.12',
+350 silly addNameRange     '2.5.13',
+350 silly addNameRange     '2.5.14',
+350 silly addNameRange     '2.6.0',
+350 silly addNameRange     '2.6.1',
+350 silly addNameRange     '2.6.2',
+350 silly addNameRange     '2.6.3',
+350 silly addNameRange     '2.6.4',
+350 silly addNameRange     '2.6.5',
+350 silly addNameRange     '2.6.6',
+350 silly addNameRange     '2.6.7',
+350 silly addNameRange     '2.6.8',
+350 silly addNameRange     '2.7.0',
+350 silly addNameRange     '2.7.1',
+350 silly addNameRange     '2.7.2',
+350 silly addNameRange     '2.7.4',
+350 silly addNameRange     '2.7.3',
+350 silly addNameRange     '3.0.0',
+350 silly addNameRange     '3.0.1',
+350 silly addNameRange     '3.0.2',
+350 silly addNameRange     '2.8.0',
+350 silly addNameRange     '3.0.3',
+350 silly addNameRange     '3.1.0',
+350 silly addNameRange     '2.8.1',
+350 silly addNameRange     '3.1.1',
+350 silly addNameRange     '2.8.2',
+350 silly addNameRange     '2.8.3',
+350 silly addNameRange     '2.9.0',
+350 silly addNameRange     '3.2.0',
+350 silly addNameRange     '2.9.1',
+350 silly addNameRange     '3.2.1',
+350 silly addNameRange     '2.9.2',
+350 silly addNameRange     '3.2.2',
+350 silly addNameRange     '3.3.0',
+350 silly addNameRange     '3.3.1',
+350 silly addNameRange     '2.9.3',
+350 silly addNameRange     '3.4.0',
+350 silly addNameRange     '2.9.4',
+350 silly addNameRange     '2.9.5',
+350 silly addNameRange     '3.5.0',
+350 silly addNameRange     '3.5.1',
+350 silly addNameRange     '3.5.2',
+350 silly addNameRange     '3.5.3',
+350 silly addNameRange     '2.9.6',
+350 silly addNameRange     '2.9.7',
+350 silly addNameRange     '3.5.4',
+350 silly addNameRange     '3.5.5',
+350 silly addNameRange     '2.9.8',
+350 silly addNameRange     '2.9.9',
+350 silly addNameRange     '3.5.6',
+350 silly addNameRange     '3.5.7',
+350 silly addNameRange     '3.5.8',
+350 silly addNameRange     '2.9.10',
+350 silly addNameRange     '3.5.9',
+350 silly addNameRange     '3.6.2',
+350 silly addNameRange     '3.5.10',
+350 silly addNameRange     '3.6.3',
+350 silly addNameRange     '3.5.11',
+350 silly addNameRange     '3.6.4',
+350 silly addNameRange     '3.6.5',
+350 silly addNameRange     '3.6.6',
+350 silly addNameRange     '3.6.7',
+350 silly addNameRange     '3.5.12',
+350 silly addNameRange     '3.6.8',
+350 silly addNameRange     '3.6.9',
+350 silly addNameRange     '3.6.10',
+350 silly addNameRange     '3.5.13',
+350 silly addNameRange     '3.5.14',
+350 silly addNameRange     '3.6.11',
+350 silly addNameRange     '3.6.12',
+350 silly addNameRange     '3.6.13',
+350 silly addNameRange     '3.6.14',
+350 silly addNameRange     '3.6.15',
+350 silly addNameRange     '3.5.15',
+350 silly addNameRange     '3.7.0',
+350 silly addNameRange     '3.6.16',
+350 silly addNameRange     '3.5.16',
+350 silly addNameRange     '3.6.17',
+350 silly addNameRange     '3.7.2',
+350 silly addNameRange     '3.0.0-alpha1',
+350 silly addNameRange     '3.0.0-alpha2',
+350 silly addNameRange     '3.0.0-rc0',
+350 silly addNameRange     '3.6.0-rc0',
+350 silly addNameRange     '3.6.0-rc1',
+350 silly addNameRange     '3.6.18',
+350 silly addNameRange     '3.7.3',
+350 silly addNameRange     '3.6.19',
+350 silly addNameRange     '3.6.20',
+350 silly addNameRange     '3.7.4',
+350 silly addNameRange     '3.8.0',
+350 silly addNameRange     '3.8.1',
+350 silly addNameRange     '3.8.2',
+350 silly addNameRange     '3.8.3',
+350 silly addNameRange     '3.8.4',
+350 silly addNameRange     '3.8.5',
+350 silly addNameRange     '3.8.6',
+350 silly addNameRange     '3.8.7',
+350 silly addNameRange     '3.8.8',
+350 silly addNameRange     '3.8.9',
+350 silly addNameRange     '3.8.10',
+350 silly addNameRange     '3.8.11',
+350 silly addNameRange     '3.9.0',
+350 silly addNameRange     '3.8.12',
+350 silly addNameRange     '3.8.13',
+350 silly addNameRange     '3.8.14',
+350 silly addNameRange     '3.8.15',
+350 silly addNameRange     '3.9.1',
+350 silly addNameRange     '3.8.16',
+350 silly addNameRange     '3.9.2',
+350 silly addNameRange     '3.8.17',
+350 silly addNameRange     '3.9.3',
+350 silly addNameRange     '3.8.18',
+350 silly addNameRange     '3.9.4',
+350 silly addNameRange     '3.8.19',
+350 silly addNameRange     '3.9.5',
+350 silly addNameRange     '3.8.20',
+350 silly addNameRange     '3.9.6',
+350 silly addNameRange     '3.8.21',
+350 silly addNameRange     '3.9.7',
+350 silly addNameRange     '3.8.22',
+350 silly addNameRange     '4.0.0-rc0',
+350 silly addNameRange     '4.0.0-rc1',
+350 silly addNameRange     '3.8.23',
+350 silly addNameRange     '4.0.0-rc2',
+350 silly addNameRange     '3.8.24',
+350 silly addNameRange     '4.0.0-rc3',
+350 silly addNameRange     '3.8.25',
+350 silly addNameRange     '4.0.0-rc4',
+350 silly addNameRange     '4.0.0',
+350 silly addNameRange     '4.0.1',
+350 silly addNameRange     '3.8.26',
+350 silly addNameRange     '3.8.27',
+350 silly addNameRange     '4.0.2',
+350 silly addNameRange     '3.8.28',
+350 silly addNameRange     '4.0.3',
+350 silly addNameRange     '3.8.29',
+350 silly addNameRange     '4.0.4',
+350 silly addNameRange     '3.8.30',
+350 silly addNameRange     '4.0.5',
+350 silly addNameRange     '3.8.31',
+350 silly addNameRange     '4.0.6',
+350 silly addNameRange     '3.8.33',
+350 silly addNameRange     '4.0.7',
+350 silly addNameRange     '3.8.34',
+350 silly addNameRange     '4.0.8',
+350 silly addNameRange     '4.1.0',
+350 silly addNameRange     '4.1.1',
+350 silly addNameRange     '4.1.2',
+350 silly addNameRange     '3.8.35',
+350 silly addNameRange     '4.1.3',
+350 silly addNameRange     '4.1.5',
+350 silly addNameRange     '4.1.6',
+350 silly addNameRange     '4.1.7',
+350 silly addNameRange     '4.1.8',
+350 silly addNameRange     '4.1.9',
+350 silly addNameRange     '4.1.10',
+350 silly addNameRange     '4.1.11',
+350 silly addNameRange     '3.8.36',
+350 silly addNameRange     '4.1.12',
+350 silly addNameRange     '4.2.0',
+350 silly addNameRange     '4.2.1',
+350 silly addNameRange     '4.2.2',
+350 silly addNameRange     '4.2.3',
+350 silly addNameRange     '4.2.4',
+350 silly addNameRange     '4.2.5',
+350 silly addNameRange     '3.8.37',
+350 silly addNameRange     '4.2.6',
+350 silly addNameRange     '4.2.7',
+350 silly addNameRange     '4.2.8',
+350 silly addNameRange     '4.2.9',
+350 silly addNameRange     '4.2.10',
+350 silly addNameRange     '4.3.0',
+350 silly addNameRange     '4.3.1',
+350 silly addNameRange     '4.3.2',
+350 silly addNameRange     '4.3.3',
+350 silly addNameRange     '4.3.4',
+350 silly addNameRange     '3.8.38',
+350 silly addNameRange     '4.3.5',
+350 silly addNameRange     '4.3.6',
+350 silly addNameRange     '3.8.39',
+350 silly addNameRange     '4.3.7',
+350 silly addNameRange     '4.4.0',
+350 silly addNameRange     '4.4.1',
+350 silly addNameRange     '4.4.2',
+350 silly addNameRange     '4.4.3',
+350 silly addNameRange     '4.4.4',
+350 silly addNameRange     '4.4.5',
+350 silly addNameRange     '4.4.6',
+350 silly addNameRange     '4.4.7',
+350 silly addNameRange     '4.4.8',
+350 silly addNameRange     '4.4.9',
+350 silly addNameRange     '4.4.10',
+350 silly addNameRange     '4.4.11' ] ]
+351 silly addNamed mongoose@3.8.39
+352 verbose addNamed "3.8.39" is a plain semver version for mongoose
+353 verbose get https://registry.npmjs.org/ejs not expired, no request
+354 silly addNameRange number 2 { name: 'ejs', range: '>=0.8.5 <0.9.0', hasData: true }
+355 silly addNameRange versions [ 'ejs',
+355 silly addNameRange   [ '0.0.1',
+355 silly addNameRange     '0.0.2',
+355 silly addNameRange     '0.0.3',
+355 silly addNameRange     '0.0.4',
+355 silly addNameRange     '0.1.0',
+355 silly addNameRange     '0.2.0',
+355 silly addNameRange     '0.2.1',
+355 silly addNameRange     '0.3.0',
+355 silly addNameRange     '0.3.1',
+355 silly addNameRange     '0.4.0',
+355 silly addNameRange     '0.4.1',
+355 silly addNameRange     '0.4.2',
+355 silly addNameRange     '0.4.3',
+355 silly addNameRange     '0.5.0',
+355 silly addNameRange     '0.6.0',
+355 silly addNameRange     '0.6.1',
+355 silly addNameRange     '0.7.0',
+355 silly addNameRange     '0.7.1',
+355 silly addNameRange     '0.7.2',
+355 silly addNameRange     '0.8.0',
+355 silly addNameRange     '0.8.1',
+355 silly addNameRange     '0.8.2',
+355 silly addNameRange     '0.8.3',
+355 silly addNameRange     '0.8.4',
+355 silly addNameRange     '0.8.5',
+355 silly addNameRange     '0.8.6',
+355 silly addNameRange     '0.8.8',
+355 silly addNameRange     '1.0.0',
+355 silly addNameRange     '2.0.2',
+355 silly addNameRange     '2.0.3',
+355 silly addNameRange     '2.0.4',
+355 silly addNameRange     '2.0.5',
+355 silly addNameRange     '2.0.6',
+355 silly addNameRange     '2.0.7',
+355 silly addNameRange     '2.0.8',
+355 silly addNameRange     '2.1.1',
+355 silly addNameRange     '2.1.2',
+355 silly addNameRange     '2.1.3',
+355 silly addNameRange     '2.1.4',
+355 silly addNameRange     '2.2.1',
+355 silly addNameRange     '2.2.2',
+355 silly addNameRange     '2.2.3',
+355 silly addNameRange     '2.2.4',
+355 silly addNameRange     '2.3.1',
+355 silly addNameRange     '2.3.2',
+355 silly addNameRange     '2.3.3',
+355 silly addNameRange     '2.3.4',
+355 silly addNameRange     '2.4.1' ] ]
+356 silly addNamed ejs@0.8.8
+357 verbose addNamed "0.8.8" is a plain semver version for ejs
+358 silly mapToRegistry name serve-favicon
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+362 verbose addRemoteTarball https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz not in flight; adding
+363 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+363 verbose addRemoteTarball   '7b911c0ea4c0f9a2ad686daa5222766f7bc7db79' ]
+364 silly mapToRegistry name debug
+365 silly mapToRegistry using default registry
+366 silly mapToRegistry registry https://registry.npmjs.org/
+367 silly mapToRegistry uri https://registry.npmjs.org/debug
+368 verbose addRemoteTarball https://registry.npmjs.org/debug/-/debug-2.0.0.tgz not in flight; adding
+369 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.0.0.tgz',
+369 verbose addRemoteTarball   '89bd9df6732b51256bc6705342bba02ed12131ef' ]
+370 info retry fetch attempt 1 at 3:21:25 PM
+371 info attempt registry request try #1 at 3:21:25 PM
+372 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+373 info retry fetch attempt 1 at 3:21:25 PM
+374 info attempt registry request try #1 at 3:21:25 PM
+375 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+376 info retry fetch attempt 1 at 3:21:25 PM
+377 info attempt registry request try #1 at 3:21:25 PM
+378 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+379 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+380 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+381 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+382 silly cache afterAdd cookie-parser@1.3.5
+383 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\cookie-parser\1.3.5\package\package.json not in flight; writing
+384 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+385 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\cookie-parser\1.3.5\package\package.json written
+386 silly cache afterAdd ejs@0.8.8
+387 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\ejs\0.8.8\package\package.json not in flight; writing
+388 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+389 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\ejs\0.8.8\package\package.json written
+390 silly cache afterAdd mongoose@3.8.39
+391 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\mongoose\3.8.39\package\package.json not in flight; writing
+392 verbose correctMkdir C:\Users\flash\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+393 verbose afterAdd C:\Users\flash\AppData\Roaming\npm-cache\mongoose\3.8.39\package\package.json written
+394 info attempt registry request try #2 at 3:21:34 PM
+395 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+396 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+397 info attempt registry request try #2 at 3:21:34 PM
+398 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+399 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+400 info attempt registry request try #2 at 3:21:35 PM
+401 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+402 info attempt registry request try #2 at 3:21:35 PM
+403 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+404 info attempt registry request try #2 at 3:21:35 PM
+405 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+406 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+407 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+408 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+409 info attempt registry request try #3 at 3:22:34 PM
+410 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+411 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+412 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+413 info attempt registry request try #3 at 3:22:34 PM
+414 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+415 error fetch failed https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+416 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+417 info attempt registry request try #3 at 3:22:35 PM
+418 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+419 info attempt registry request try #3 at 3:22:35 PM
+420 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+421 info attempt registry request try #3 at 3:22:35 PM
+422 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+423 error fetch failed https://registry.npmjs.org/express/-/express-4.9.8.tgz
+424 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+425 error fetch failed https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+426 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+427 error fetch failed https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+428 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+429 info retry fetch attempt 2 at 3:22:44 PM
+430 info attempt registry request try #1 at 3:22:44 PM
+431 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+432 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+433 info retry fetch attempt 2 at 3:22:44 PM
+434 info attempt registry request try #1 at 3:22:44 PM
+435 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+436 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+437 info retry fetch attempt 2 at 3:22:45 PM
+438 info attempt registry request try #1 at 3:22:45 PM
+439 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+440 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+441 info retry fetch attempt 2 at 3:22:45 PM
+442 info attempt registry request try #1 at 3:22:45 PM
+443 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+444 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+445 info retry fetch attempt 2 at 3:22:45 PM
+446 info attempt registry request try #1 at 3:22:45 PM
+447 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+448 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+449 info attempt registry request try #2 at 3:22:54 PM
+450 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+451 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+452 info attempt registry request try #2 at 3:22:54 PM
+453 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+454 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+455 info attempt registry request try #2 at 3:22:55 PM
+456 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+457 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+458 info attempt registry request try #2 at 3:22:55 PM
+459 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+460 info attempt registry request try #2 at 3:22:55 PM
+461 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+462 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+463 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+464 info attempt registry request try #3 at 3:23:54 PM
+465 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+466 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+467 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+468 info attempt registry request try #3 at 3:23:54 PM
+469 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+470 error fetch failed https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+471 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+472 info attempt registry request try #3 at 3:23:55 PM
+473 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+474 error fetch failed https://registry.npmjs.org/express/-/express-4.9.8.tgz
+475 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+476 info attempt registry request try #3 at 3:23:55 PM
+477 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+478 info attempt registry request try #3 at 3:23:55 PM
+479 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+480 error fetch failed https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+481 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+482 error fetch failed https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+483 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+484 info retry fetch attempt 3 at 3:24:54 PM
+485 info attempt registry request try #1 at 3:24:54 PM
+486 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+487 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+488 info retry fetch attempt 3 at 3:24:55 PM
+489 info attempt registry request try #1 at 3:24:55 PM
+490 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+491 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+492 info retry fetch attempt 3 at 3:24:55 PM
+493 info attempt registry request try #1 at 3:24:55 PM
+494 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+495 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+496 info retry fetch attempt 3 at 3:24:55 PM
+497 info attempt registry request try #1 at 3:24:55 PM
+498 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+499 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+500 info retry fetch attempt 3 at 3:24:55 PM
+501 info attempt registry request try #1 at 3:24:55 PM
+502 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+503 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+504 info attempt registry request try #2 at 3:25:04 PM
+505 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+506 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+507 info attempt registry request try #2 at 3:25:05 PM
+508 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+509 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+510 info attempt registry request try #2 at 3:25:05 PM
+511 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+512 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+513 info attempt registry request try #2 at 3:25:05 PM
+514 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+515 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+516 info attempt registry request try #2 at 3:25:05 PM
+517 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+518 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+519 info attempt registry request try #3 at 3:26:04 PM
+520 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+521 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.8.4.tgz
+522 info attempt registry request try #3 at 3:26:05 PM
+523 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+524 error fetch failed https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+525 info attempt registry request try #3 at 3:26:05 PM
+526 http fetch GET https://registry.npmjs.org/express/-/express-4.9.8.tgz
+527 error fetch failed https://registry.npmjs.org/express/-/express-4.9.8.tgz
+528 info attempt registry request try #3 at 3:26:05 PM
+529 http fetch GET https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+530 error fetch failed https://registry.npmjs.org/debug/-/debug-2.0.0.tgz
+531 info attempt registry request try #3 at 3:26:05 PM
+532 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+533 error fetch failed https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+534 silly rollbackFailedOptional Starting
+535 silly rollbackFailedOptional Finishing
+536 silly runTopLevelLifecycles Starting
+537 silly runTopLevelLifecycles Finishing
+538 silly install printInstalled
+539 verbose stack Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+539 verbose stack
+539 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+539 verbose stack     at ClientRequest.g (events.js:273:16)
+539 verbose stack     at emitOne (events.js:90:13)
+539 verbose stack     at ClientRequest.emit (events.js:182:7)
+539 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:295:9)
+539 verbose stack     at emitOne (events.js:90:13)
+539 verbose stack     at TLSSocket.emit (events.js:182:7)
+539 verbose stack     at onwriteError (_stream_writable.js:313:10)
+539 verbose stack     at onwrite (_stream_writable.js:331:5)
+539 verbose stack     at WritableState.onwrite (_stream_writable.js:89:5)
+540 verbose cwd C:\Users\flash\Documents\crud_system
+541 error Windows_NT 6.1.7601
+542 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+543 error node v5.7.1
+544 error npm  v3.6.0
+545 error code ECONNRESET
+546 error network tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+547 error network This is most likely not a problem with npm itself
+547 error network and is related to network connectivity.
+547 error network In most cases you are behind a proxy or have bad network settings.
+547 error network
+547 error network If you are behind a proxy, please make sure that the
+547 error network 'proxy' config is set properly.  See: 'npm help config'
+548 verbose exit [ 1, true ]
